@@ -1,0 +1,39 @@
+.project{
+  display: flex;
+}
+
+.projet-details{
+  margin-left: 20px;
+
+  max-width: 600px;
+}
+
+.projet-details a{
+  color: yellow;
+}
+
+.technologies{
+  margin: 20px 0;
+}
+.description h3{
+  margin: 20px 0;
+}
+
+.description p {
+  text-align: justify;
+
+  padding-right: 10px;
+}
+
+@media (max-width: 550px){
+  .project{
+    flex-direction: column;
+  }
+  .project-image{
+    margin-bottom: 20px;
+  }
+}
+
+.project-image{
+  min-width: 300px;
+}
